@@ -17,7 +17,7 @@ use App\Http\Controllers\HomeController;
 
 
 Route::get('/', [HomeController::class,'dashboard'])->name('dashboard');
-// Route::get('/organization', [OrganizationController::class,''])->name('');
+Route::get('/organization', [OrganizationController::class,'list'])->name('organization');
 // Route::get('/', [HomeController::class,'dashboard'])->name('dashboard');
 // Route::get('/', [HomeController::class,'dashboard'])->name('dashboard');
 // Route::get('/', [HomeController::class,'dashboard'])->name('dashboard');
