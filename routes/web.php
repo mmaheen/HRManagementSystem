@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,8 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('backend.master');
-});
+
 
 Route::get('/', [HomeController::class,'dashboard'])->name('dashboard');
+// Route::get('/organization', [OrganizationController::class,''])->name('');
+// Route::get('/', [HomeController::class,'dashboard'])->name('dashboard');
+// Route::get('/', [HomeController::class,'dashboard'])->name('dashboard');
+// Route::get('/', [HomeController::class,'dashboard'])->name('dashboard');
+// Route::get('/', [HomeController::class,'dashboard'])->name('dashboard');
+
