@@ -3,9 +3,9 @@
 @section('content')
 
 <!-- Content Start -->
-<div class="content">
-            
 
+            
+<div class="content">
 
     <!-- Sale & Revenue Start -->
     <div class="container-fluid pt-4 px-4">
