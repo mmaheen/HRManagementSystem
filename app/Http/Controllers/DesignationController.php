@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Designation;
 use Illuminate\Http\Request;
 
-class ProjectController extends Controller
+class DesignationController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,6 +15,7 @@ class ProjectController extends Controller
     public function index()
     {
         //
+        return view ('backend.pages.designation.list');
     }
 
     /**
@@ -40,10 +42,10 @@ class ProjectController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Designation  $designation
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Designation $designation)
     {
         //
     }
@@ -51,10 +53,10 @@ class ProjectController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Designation  $designation
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Designation $designation)
     {
         //
     }
@@ -63,10 +65,10 @@ class ProjectController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Models\Designation  $designation
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Designation $designation)
     {
         //
     }
@@ -74,10 +76,10 @@ class ProjectController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\Designation  $designation
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Designation $designation)
     {
         //
     }

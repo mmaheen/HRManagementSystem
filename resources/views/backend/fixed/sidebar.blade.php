@@ -29,17 +29,19 @@
                         </div>
                     </div> --}}
                     
-                    <a href="  " class="nav-item nav-link"><i class="fa fa-th me-2"></i>Organization</a>
-                    <a href="  " class="nav-item nav-link"><i class="fa fa-users me"></i>Employees</a>
-                    <a href="   " class="nav-item nav-link"><i class="fa fa-table me-2"></i>Attendance</a>
-                    <a href="   " class="nav-item nav-link"><i class="fa fa-sign-out me-2"></i>Leave</a>
-                    <a href="   " class="nav-item nav-link"><i class="fa fa-th me-2"></i>Projects</a>
-                    <a href="   " class="nav-item nav-link"><i class="fa fa-list-ul me-2"></i>Payroll</a>
-                    <a href="    " class="nav-item nav-link"><i class="fa fa-hand-holding-usd me-2"></i>Loan</a>
-                    <a href="    " class="nav-item nav-link"><i class="fa fa-money-bill-alt me-2"></i>Assets</a>
-                    <a href="  " class="nav-item nav-link"><i class="fa fa-bell me-2"></i>Notice</a>
-                    <a href="  " class="nav-item nav-link"><i class="fa fa-trophy me-2"></i>Awards</a>
-                    <a href="  " class="nav-item nav-link"><i class="fa fa-cogs me-2"></i>Settings</a>
+                    <a href="{{route('organization')}}" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Organization</a>
+                    <a href="{{route('employee.list')}}" class="nav-item nav-link"><i class="fa fa-users me-2"></i>Employees</a>
+                    <a href="{{route('attendance.list')}}" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Attendance</a>
+                    <a href="{{route('leave.list')}}" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Leave</a>
+                    <a href="   " class="nav-item nav-link"><i class="fa fa-table me-2"></i>Leave Type</a>
+                    <a href="{{route('department.list')}}" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Department</a>
+                    <a href="{{route('designation')}}" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Designation</a>
+                    <a href="{{route('roll.list')}}" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Role</a>
+                    <a href="{{route('permission.list')}}" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Permission</a>
+                    <a href="   " class="nav-item nav-link"><i class="fa fa-table me-2"></i>Role_Permission</a>
+                    <a href="{{route('asset.list')}}" class="nav-item nav-link"><i class="fa fa-money-bill-alt me-2"></i>Assets</a>
+                    <a href="{{route('notice.list')}}" class="nav-item nav-link"><i class="fa fa-bell me-2"></i>Notice</a>
+
                     
                 </div>
             </nav>

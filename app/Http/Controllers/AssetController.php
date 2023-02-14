@@ -14,6 +14,7 @@ class AssetController extends Controller
     public function index()
     {
         //
+        return view ('backend.pages.asset.list');
     }
 
     /**

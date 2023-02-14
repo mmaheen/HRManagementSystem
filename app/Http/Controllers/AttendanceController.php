@@ -14,6 +14,7 @@ class AttendanceController extends Controller
     public function index()
     {
         //
+        return view ('backend.pages.attendance.list');
     }
 
     /**
